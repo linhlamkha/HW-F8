@@ -1,0 +1,52 @@
+body {
+   font-family: system-ui;
+   margin: 30px auto;
+   max-width: 800px;
+   font-size: 16px;
+   color: #292929;
+}
+h1 {
+   font-size: 30px;
+   color: #222222;
+   line-height: 1.4;
+   font-weight: 700;
+}
+h2 {
+   font-size: 22px;
+   font-weight: 600;
+}
+p,
+ul {
+   line-height: 1.8;
+}
+img {
+   max-width: 100%;
+   max-height: 480px;
+   border-radius: 12px;
+}
+pre {
+   margin: 0;
+   padding: 8px;
+}
+.code-block {
+   /* max-width: 100%; */
+   overflow-x: auto;
+   line-height: 1.5;
+   background-color: #f3f9ff;
+   border-radius: 8px;
+   margin: 0;
+   padding: 0;
+}
+.code-block pre {
+   white-space: pre-wrap; /* cho phép xuống dòng */
+   word-break: break-word; /* tránh chữ dài bị tràn */
+}
+table {
+   width: 100%;
+}
+table,
+tr,
+td {
+   border: 1px solid black;
+   border-collapse: collapse;
+}
