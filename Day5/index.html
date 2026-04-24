@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="vi">
+   <head>
+       <meta charset="UTF-8" />
+       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+       <title>Các hình có thể tạo được với Border</title>
+       <style>
+           .shape {
+               display: inline-block;
+               margin: 10px;
+               font-weight: 600;
+               font-size: 12px;
+           }
+           .square {
+               border: 2px red solid;
+               width: 60px;
+               height: 60px;
+           }
+           .rectangular {
+               border: 2px skyblue solid;
+               width: 90px;
+               height: 50px;
+           }
+           .triangle1 {
+               border-width: 10px 30px 50px;
+               border-color: transparent transparent #6dc978;
+               border-style: solid;
+               width: 0;
+           }
+           .triangle2 {
+               border-width: 50px 30px 10px;
+               border-color: #e3a031 transparent transparent;
+               border-style: solid;
+               width: 0;
+           }
+           .triangle3 {
+               border-width: 30px 60px;
+               border-color: transparent #905cb2 transparent transparent;
+               border-style: solid;
+               width: 0;
+               position: relative;
+               left: -40px;
+           }
+           .triangle4 {
+               border-width: 30px 60px;
+               border-color: transparent transparent transparent #d48333;
+               border-style: solid;
+               width: 0;
+               /* left: 40px; */
+           }
+           .trapezoid {
+               border-width: 50px 20px;
+               border-color: transparent transparent #61b99d transparent;
+               border-style: solid;
+               width: 50px;
+           }
+           .triangle5 {
+               border-width: 25px 40px;
+               border-color: transparent transparent #3a485d transparent;
+               border-style: solid;
+               width: 0;
+           }
+           .triangle6 {
+               border-width: 60px 15px;
+               border-color: transparent transparent #ad4430 transparent;
+               border-style: solid;
+               width: 0;
+           }
+           .triangle7 {
+               border-width: 50px 30px;
+               border-color: transparent transparent #c15c1a transparent;
+               border-style: solid;
+               width: 0;
+           }
+           .arrow1 {
+               border-width: 20px 40px;
+               border-color: transparent transparent transparent #529e86;
+               border-style: solid;
+               width: 0;
+           }
+           .arrow2 {
+               border-width: 20px 40px;
+               border-color: transparent #8348a9 transparent transparent;
+               border-style: solid;
+               width: 0;
+           }
+           .ribbon {
+               border-width: 20px 35px;
+               border-color: #d15841 transparent #d15841 #d15841;
+               border-style: solid;
+               width: 0;
+           }
+           .f,
+           .eight {
+               display: inline-block;
+               vertical-align: top;
+           }
+           .eight {
+               margin-left: 10px;
+           }
+
+
+           .child1 {
+               border: 12px #d15841 solid;
+               width: 40px;
+               height: 40px;
+               border-right: transparent;
+           }
+           .child2 {
+               border: 12px #d15841 solid;
+               width: 40px;
+               height: 40px;
+               border-top: transparent;
+               border-bottom: transparent;
+               border-right: transparent;
+           }
+           .child3,
+           .child4 {
+               border: 12px #d15841 solid;
+               width: 50px;
+               height: 50px;
+               box-sizing: border-box;
+           }
+       </style>
+   </head>
+   <body>
+       <h1>Các hình có thể tạo được với Border</h1>
+       <div class="shape">
+           <div class="square"></div>
+           <p>1. Hình vuồng</p>
+       </div>
+       <div class="shape">
+           <div class="rectangular"></div>
+           <p>2. Hình chữ nhật</p>
+       </div>
+       <div class="shape">
+           <div class="triangle1"></div>
+           <p>3. Tam giác lên</p>
+       </div>
+       <div class="shape">
+           <div class="triangle2"></div>
+           <p>4. Tam giác xuống</p>
+       </div>
+       <div class="shape">
+           <div class="triangle3"></div>
+           <p>5. Tam giác trái</p>
+       </div>
+       <div class="shape">
+           <div class="triangle4"></div>
+           <p>6. Tam giác phải</p>
+       </div>
+       <div class="shape">
+           <div class="trapezoid"></div>
+           <p>7. Hình thang</p>
+       </div>
+       <div class="shape">
+           <div class="triangle5"></div>
+           <p>8. Tam giác rộng</p>
+       </div>
+       <div class="shape">
+           <div class="triangle6"></div>
+           <p>9. Tam giác nhọn</p>
+       </div>
+       <div class="shape">
+           <div class="triangle7"></div>
+           <p>10. Tam giác cân</p>
+       </div>
+       <div class="shape">
+           <div class="arrow1"></div>
+           <p>11. Mũi tên phải</p>
+       </div>
+       <div class="shape">
+           <div class="arrow2"></div>
+           <p>12. Mũi tên trái</p>
+       </div>
+       <div class="shape">
+           <div class="ribbon"></div>
+           <p>13. Ribbon/Lá cờ</p>
+       </div>
+       <div class="shape">
+           <div class="f8">
+               <div class="f">
+                   <div class="child1"></div>
+                   <div class="child2"></div>
+               </div>
+               <div class="eight">
+                   <div class="child3"></div>
+                   <div class="child4"></div>
+               </div>
+           </div>
+           <p>14. F8</p>
+       </div>
+   </body>
+</html>
