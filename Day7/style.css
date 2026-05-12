@@ -1,0 +1,147 @@
+.container {
+    width: 600px;
+    height: 200px;
+    display: flex;
+    border: 2px solid red;
+}
+
+.flex-item {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    background-color: #5981b1;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+/* container 1 */
+.flex-container1 {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* container 2 */
+.flex-container2 {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* container 3 */
+.flex-container3 {
+    flex-direction: column;
+    align-items: center;
+    :first-child {
+        margin-bottom: 20px;
+    }
+    :nth-child(2) {
+        margin-bottom: 50px;
+    }
+}
+
+/* container 4 */
+.flex-container4 {
+    justify-content: center;
+    align-content: center;
+
+    .flex-item {
+        align-self: center;
+    }
+    :first-child {
+        margin-right: 10px;
+    }
+
+    :nth-child(2) {
+        margin-right: 40px;
+    }
+}
+
+/* container 5 */
+.flex-container5 {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: center;
+
+    .flex-item {
+        align-self: center;
+    }
+}
+
+/* container 6 */
+.flex-container6 {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* container 7 */
+.flex-container7 {
+    flex-direction: column;
+    align-items: center;
+
+    :first-child {
+        margin-bottom: 60px;
+        margin-top: 0;
+    }
+    :last-child {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+}
+
+/* container 8 */
+.flex-container8 {
+    align-items: center;
+    
+    .flex-item {
+        margin: auto;
+    }
+
+    :first-child {
+        margin-left: 0;
+    }
+    :last-child {
+        margin-right: 0;
+    }
+}
+
+/* container9 */
+.flex-container9 {
+    justify-content: center;
+    gap: 20px;
+
+    :first-child {
+        margin-top: 40px;
+    }
+    :nth-child(2) {
+        align-self: center;
+    }
+    :last-child {
+        margin-top: 120px;
+    }
+    
+}
+
+/* container 10 */
+.flex-container10 {
+    justify-content: center;
+    align-items: center;
+
+    :first-child {
+        align-self: flex-start;
+    }
+    :nth-child(2) {
+        margin: auto;
+    }
+    :last-child {
+        align-self: flex-end;
+    }
+}
+
+
+
+
+
+
+
+
