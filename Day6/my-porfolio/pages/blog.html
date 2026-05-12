@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Blog</title>
+        <link rel="stylesheet" href="../css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css"
+        />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <i class="mdi mdi-home"></i>
+                        <a href="../index.html">Home</a>
+                    </li>
+                    <li>
+                        <i class="mdi mdi-account"></i>
+                        <a href="./about.html">About</a>
+                    </li>
+                    <li>
+                        <i class="mdi mdi-lightbulb-on"></i>
+                        <a href="./skills.html">Skills</a>
+                    </li>
+                    <li>
+                        <i class="mdi mdi-folder-open"></i>
+                        <a href="./projects.html">Projects</a>
+                    </li>
+                    <li>
+                        <i class="mdi mdi-note-edit"></i>
+                        <a href="./blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <i class="mdi mdi-email"></i>
+                        <a href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <article>
+            <header>
+                <h1>Hành trình học HTML</h1>
+                <time datetime="2026-05-07"> 07/05/2026 </time>
+                <p>Tác giả: Nguyen Van A</p>
+                <img
+                    src="https://picsum.photos/800/400"
+                    alt="Blog cover"
+                    width="800"
+                    height="400"
+                />
+            </header>
+
+            <section id="intro">
+                <h2>Giới thiệu</h2>
+
+                <p>HTML là nền tảng của mọi website.</p>
+
+                <p>
+                    Tôi bắt đầu học
+                    <strong>semantic HTML</strong>
+                    để viết code tốt hơn.
+                </p>
+
+                <p>
+                    Một số thẻ quan trọng:
+                    <code>header</code>, <code>main</code>,
+                    <code>footer</code>
+                </p>
+            </section>
+
+            <!-- code block -->
+            <section id="code">
+                <h2>Ví dụ code</h2>
+                <pre><code>
+<!-- Đây là heading -->
+&lt;h1&gt;Hello World&lt;/h1&gt;
+</code></pre>
+                <pre><code>
+/* CSS comment */
+body {
+   background: #ffffff;
+}
+</code></pre>
+                <p>
+                    Nhấn
+                    <kbd>Ctrl</kbd> +
+                    <kbd>S</kbd>
+                    để lưu file.
+                </p>
+
+                <p>
+                    Kết quả:
+                    <samp>Hello World</samp>
+                </p>
+            </section>
+
+            <!-- BLOCKQUOTE -->
+            <blockquote>
+                "Code is like humor. When you have to explain it, it’s bad."
+            </blockquote>
+
+            <cite>- Cory House</cite>
+
+            <!-- Tham khảo -->
+            <section>
+                <h2>Tài liệu tham khảo</h2>
+                <a
+                    href="https://www.google.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <cite>References</cite>
+                </a>
+            </section>
+
+            <!-- Tác giả -->
+            <section>
+                <h2>Thông tin tác giả</h2>
+                <img
+                    src="https://i.pravatar.cc/150"
+                    alt="Author avatar"
+                    width="150"
+                    height="150"
+                />
+
+                <address>
+                    Nguyen Van A<br />
+                    Email:
+                    <a href="mailto:a@gmail.com"> a@gmail.com </a>
+                </address>
+            </section>
+        </article>
+
+        <footer>
+            <p>&copy; 2026 Lam Kha Linh. All rights reserved.</p>
+
+            <div>
+                <a
+                    href="https://facebook.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="mdi mdi-facebook"></i>
+                </a>
+                <a
+                    href="https://instagram.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="mdi mdi-instagram"></i>
+                </a>
+                <a
+                    href="https://github.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="mdi mdi-github"></i>
+                </a>
+            </div>
+
+            <a href="#top">Lên đầu trang</a>
+        </footer>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
